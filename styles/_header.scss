@@ -1,0 +1,139 @@
+@use './fonts';
+
+header {
+    display: flex;
+    justify-content: center;
+    background: rgba(20, 20, 20, 0.8);
+}
+.navbar * {
+  font-family: fonts.$font-nav-footer;
+  font-weight: 700;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  max-width: 1500px;
+  padding: 16px 0px;
+  
+
+  .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+    .logo {
+      width: 40px;
+      height: 40px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 24px;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+        transition: color 0.2s;
+        &:hover {
+          color: #ff4655;
+        }
+      }
+    }
+  }
+
+  .account-info {
+    background: #222;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    min-width: 120px;
+    justify-content: center;
+  }
+
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 32px;
+    height: 32px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+
+    span {
+      display: block;
+      height: 4px;
+      width: 100%;
+      background: #fff;
+      border-radius: 2px;
+      transition: 0.3s;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 16px;
+    gap: 12px;
+
+    .nav-left {
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+      justify-content: space-between;
+
+      .logo {
+        margin-bottom: 0;
+      }
+
+      .hamburger {
+        display: flex;
+      }
+
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 12px;
+        background: rgba(20, 20, 20, 0.95);
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        padding: 16px 0;
+        z-index: 1;
+
+        a {
+          font-size: 1rem;
+          padding: 12px 24px;
+        }
+      }
+
+      .nav-links.open {
+        display: flex;
+      }
+    }
+
+    .account-info {
+      display: none;
+    }
+  }
+}

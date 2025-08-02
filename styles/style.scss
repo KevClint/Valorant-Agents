@@ -1,0 +1,29 @@
+@use './header';
+@use './agents';
+@use './footer';
+@use './fonts';
+
+* {
+  // outline: 2px solid blueviolet;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../assets/pictures/valo-box-2-Photoroom.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: system-ui;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+
+
+
+
+
