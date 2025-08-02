@@ -9,6 +9,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  font-family: system-ui;
 }
 
 :root {
@@ -208,6 +209,12 @@ main {
   left: 50%;
   top: 0;
   transform: translateX(-50%);
+  transition: all 0.4s;
+}
+.agent-lists .max-agent .agents-waza img:hover {
+  transform: translateX(-230px);
+  scale: 1.05;
+  transition: all 0.4s;
 }
 .agent-lists .max-agent .agents-waza .agent-name {
   --bottom-agent-name-light: rgb(236, 232, 225);
@@ -226,9 +233,6 @@ main {
   text-transform: uppercase;
 }
 
-footer {
-  outline: 2px solid blueviolet;
-}
 footer .download-main {
   background-color: rgb(41, 41, 41);
   height: 5vh;
@@ -276,7 +280,14 @@ footer .footer-info .riot-games-logo p {
   color: white;
   max-width: 700px;
   text-align: center;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+footer .footer-info .riot-games-logo .privacy-list {
+  display: flex;
+  gap: 20px;
+}
+footer .footer-info .riot-games-logo .privacy-list a {
+  color: white;
+  text-decoration: none;
 }
 footer .footer-info .list-social {
   width: 100%;
@@ -286,10 +297,12 @@ footer .footer-info .list-social {
   gap: 10px;
 }
 footer .footer-info .list-social img {
+  font-family: var(--font-nav-footer);
   box-sizing: unset;
   border-radius: 50%;
   padding: 5px;
   width: 20px;
   height: 20px;
   background-color: rgba(128, 128, 128, 0.397);
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
