@@ -1,3 +1,11 @@
-h1 {
-    color: green;
+* {
+    // outline: 2px solid blueviolet;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('assets/pictures/Closed_Beta_Promo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
