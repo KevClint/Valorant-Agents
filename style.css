@@ -259,14 +259,14 @@ footer .footer-info {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 40px;
 }
 footer .footer-info .riot-games-logo {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
 }
 footer .footer-info .riot-games-logo img,
 footer .footer-info .riot-games-logo p {
