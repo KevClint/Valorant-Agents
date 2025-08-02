@@ -23,6 +23,12 @@ main {
   gap: 100px;
 }
 
+header {
+  display: flex;
+  justify-content: center;
+  background: rgba(20, 20, 20, 0.8);
+}
+
 .navbar * {
   font-family: var(--font-nav-footer);
   font-weight: 700;
@@ -32,8 +38,9 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 40px;
-  background: rgba(20, 20, 20, 0.8);
+  width: 95%;
+  max-width: 1500px;
+  padding: 16px 0px;
 }
 .navbar .nav-left {
   display: flex;
