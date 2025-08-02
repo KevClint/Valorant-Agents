@@ -305,4 +305,33 @@ footer .footer-info .list-social img {
   height: 20px;
   background-color: rgba(128, 128, 128, 0.397);
   cursor: pointer;
+}
+footer .footer-info .ratings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: rgba(128, 128, 128, 0.397);
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+footer .footer-info .ratings img {
+  height: 100px;
+  width: 70px;
+  z-index: 1;
+  opacity: 1;
+}
+footer .footer-info .ratings .ratings-info p {
+  text-align: left;
+  opacity: 1;
+}
+footer .aboutme {
+  background-color: rgb(41, 41, 41);
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: var(--font-nav-footer);
 }/*# sourceMappingURL=style.css.map */
