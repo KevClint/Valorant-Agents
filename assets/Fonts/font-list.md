@@ -1,6 +1,6 @@
 ## 🗂️ Archived Fonts (Not in Use)
 
-These fonts were previously considered for styling but are currently commented out in the code. Keeping them here for future reference or experimentation.
+These valorant fonts were previously considered for styling but are currently commented out in the code. Keeping them here for future reference or experimentation.
 
 ***
 
