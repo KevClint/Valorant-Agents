@@ -6,7 +6,7 @@ These valorant fonts were previously considered for styling but are currently co
 
 ### 🔤 Devator (Fontshare)
 - `font-family: 'Devator', sans-serif;`
-- Sample: VALORANT LOGO TEXT
+- Sample: `VALORANT LOGO` TEXT
 - Link:
 
 ```html
@@ -15,7 +15,7 @@ These valorant fonts were previously considered for styling but are currently co
 
  ### 🔤 Manrope (Google Fonts)
 - `font-family: 'Manrope', sans-serif;`
-- Sample: also used in valorant typography in websites
+- Sample: also used in `valorant` typography in websites
 - Link:
 
 ```html
