@@ -309,12 +309,13 @@ footer .footer-info .ratings .ratings-info p {
 }
 footer .aboutme {
   background-color: rgb(41, 41, 41);
-  height: 5vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   color: white;
   font-family: "Rajdhani", sans-serif;
+  padding: 20px;
 }
 
 * {

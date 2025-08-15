@@ -106,11 +106,12 @@ footer {
 
   .aboutme {
     background-color: rgb(41, 41, 41);
-    height: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     color: white;
     font-family: fonts.$font-nav-footer;
+    padding: 20px;
   }
 }
